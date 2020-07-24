@@ -8,8 +8,8 @@
 
 #include <IRremote.h>
 #include "codes.h"
-const int RECV_PIN = 22;
-const int buzzerPin=4;
+const int RECV_PIN = 11;
+const int buzzerPin=5;
 IRrecv irrecv(RECV_PIN);
 
 decode_results results;
